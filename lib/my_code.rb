@@ -55,5 +55,15 @@ def reduce_to_total(array,starting_point=0)
 end
 
 def reduce_to_all_true(array)
+  counter = 0
+  bool_value = true
 
+  while counter < array.length do
+    if(array[counter] == false)
+      bool_value = false
+    end
+   counter += 1
+  end
+
+  total
 end
