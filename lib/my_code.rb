@@ -65,5 +65,5 @@ def reduce_to_all_true(array)
    counter += 1
   end
 
-  total
+  bool_value
 end
