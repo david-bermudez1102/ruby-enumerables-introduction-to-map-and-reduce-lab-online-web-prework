@@ -47,7 +47,7 @@ def reduce_to_total
   total = 0
 
   while counter < array.length do
-    array[counter] = array[counter]**2
+    total = total + array[counter]
     counter += 1
   end
 
