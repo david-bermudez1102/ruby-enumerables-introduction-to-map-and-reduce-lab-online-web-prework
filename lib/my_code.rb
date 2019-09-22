@@ -28,7 +28,7 @@ def map_to_double(array)
 
 end
 
-def map_to_square
+def map_to_square(array)
 
     counter = 0
 
@@ -41,7 +41,7 @@ def map_to_square
 
 end
 
-def reduce_to_total
+def reduce_to_total(array,starting_point)
 
   counter = 0
   total = 0
