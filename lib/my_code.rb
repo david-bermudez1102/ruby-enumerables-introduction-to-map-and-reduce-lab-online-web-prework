@@ -25,11 +25,11 @@ def map_to_double(array)
   end
 
   array
-  
+
 end
 
 def map_to_square
-  
+
     counter = 0
 
     while counter < array.length do
@@ -38,6 +38,5 @@ def map_to_square
     end
 
     array
-    
-  
+
 end
