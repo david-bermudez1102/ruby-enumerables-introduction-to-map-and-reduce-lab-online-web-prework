@@ -67,3 +67,17 @@ def reduce_to_all_true(array)
 
   bool_value
 end
+
+def reduce_to_any_true(array)
+  counter = 0
+  bool_value = false
+
+  while counter < array.length do
+    if(array[counter] == true)
+      bool_value = true
+    end
+   counter += 1
+  end
+
+  bool_value
+end
