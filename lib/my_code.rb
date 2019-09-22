@@ -51,5 +51,5 @@ def reduce_to_total
     counter += 1
   end
 
-  array
+  total
 end
