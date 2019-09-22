@@ -42,5 +42,5 @@ def map_to_square
 end
 
 def reduce_to_total
-  
+
 end
